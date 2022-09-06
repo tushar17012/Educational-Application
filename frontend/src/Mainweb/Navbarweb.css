@@ -1,0 +1,36 @@
+#navbarweb-css {
+  color: rgb(10, 2, 2);
+  background: #6c63ff;
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 10s ease-in-out infinite;
+}
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+a {
+  color: #fff;
+}
+
+.navBar-buttons {
+  font-weight: 600;
+  color: #fff;
+  margin: 0 10px;
+}
+
+.navBar-buttons li a {
+  color: #fff;
+}
+
+.navBar-buttons li a:hover {
+  color: #2f2e41;
+}
